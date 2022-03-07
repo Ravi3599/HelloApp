@@ -12,6 +12,8 @@ export class AppComponent {
 
   url="http://www.bridgelabz.com";
 
+  userName:string="";
+
   ngOnInit():void{
     this.title="Hello from BridgeLabz.";
   }
